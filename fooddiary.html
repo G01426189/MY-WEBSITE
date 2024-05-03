@@ -1,17 +1,30 @@
 <li><a href="football.html">Football</a></li>
 <li><a href="portfolio.html">Portfolio</a></li>
-
-<link rel="stylesheet" href="styles.css">
+<html lang="en">
+    <link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Food diary</title>
     
 </head>
 
+<header>
+ <h1>Food Chronicles</h1>
+        </header>
+        <div class="centered-box">
+            <p>Welcome to my happy place. Below is some of my favourite foods. I'm classing this as a hobby too by the way :)</p>
+          </div>
+        
 <body>
     
+   
     <div class="sidebar">
         <div class="logo">
             
+            
         </div>
+        
         <nav>
             <ul>
                 
@@ -21,7 +34,52 @@
         </nav>
        
     </div>
-    
+    <title>Grid Layout with Images and Text</title>
+<style>
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+
+  .grid-item {
+    text-align: center;
+  }
+
+  .grid-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .grid-item p {
+    margin: 10px 0;
+  }
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="grid-item">
+    <img src= 'images/Breakfast.png' alt="Breakfast Picture">
+    <p>First up is a standard full(ish) english brekkie as tomatoes 100% dont belong on a breakfast however I am warming to the idea of now having mushrroms..</p>
+  </div>
+  <div class="grid-item">
+    <img src="images/Crepe.png" alt="Crepe Picture">
+    <p>One of my favourite combos is chocolate and banna combining that with on a crepe. Chefs kiss.</p>
+  </div>
+  <!-- Add more grid items below -->
+  <div class="grid-item">
+    <img src="images/Gyros.png" alt="GyrosPIC">
+    <p>I recently went to Greece and lived of these around the pool asbouloutely unreal.</p>
+  </div>
+  <div class="grid-item">
+    <img src="images/Nandos.png" alt="Nandos pic">
+    <p>Finnally my happy place in the country. I get the same order every time lol.</p>
+  </div>
+  <!-- Add more grid items as needed -->
+</div>
+
+</body>
 
     <div class="content">
 <script src="script.js"></script>
